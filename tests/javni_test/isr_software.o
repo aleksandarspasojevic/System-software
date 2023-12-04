@@ -1,0 +1,18 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  isr                      isr                      0              0              0              1              41             1                                                                
+  isr_software             isr                      0              1              0              2              -1             1                                                                
+  value1                   UND                      0              0              1              0              -1             0                                                                
+
+Sections code
+Section: isr
+81 e0 10 01 81 e0 20 01 
+91 10 00 00 00 00 ab cd 
+91 20 00 00 00 00 00 00 
+82 20 10 00 00 00 00 00 
+93 2e 0f ff 93 1e 0f ff 
+3c 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         
+  value1              SYMBOL_INDIRECT     20                  isr                 

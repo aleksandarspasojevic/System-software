@@ -1,0 +1,27 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  math                     math                     0              0              0              4              112            1                                                                
+  mathAdd                  math                     0              1              0              0              -1             1                                                                
+  mathDiv                  math                     84             1              0              3              -1             1                                                                
+  mathMul                  math                     56             1              0              2              -1             1                                                                
+  mathSub                  math                     28             1              0              1              -1             1                                                                
+
+Sections code
+Section: math
+81 e0 20 01 92 1e 00 00 
+00 00 00 08 92 2e 00 00 
+00 00 00 0c 50 11 20 93 
+2e 0f ff 3c 81 e0 20 01 
+92 1e 00 00 00 00 00 08 
+92 2e 00 00 00 00 00 0c 
+51 11 20 93 2e 0f ff 3c 
+81 e0 20 01 92 1e 00 00 
+00 00 00 08 92 2e 00 00 
+00 00 00 0c 52 11 20 93 
+2e 0f ff 3c 81 e0 20 01 
+92 1e 00 00 00 00 00 08 
+92 2e 00 00 00 00 00 0c 
+53 11 20 93 2e 0f ff 3c 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         

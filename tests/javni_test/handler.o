@@ -1,0 +1,41 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+  handle_software          my_handler               99             0              0              8              -1             1                                                                
+  handle_terminal          my_handler               83             0              0              7              -1             1                                                                
+  handle_timer             my_handler               67             0              0              6              -1             1                                                                
+  handler                  my_handler               0              1              0              3              -1             1                                                                
+  isr_software             UND                      0              0              1              2              -1             0                                                                
+  isr_terminal             UND                      0              0              1              1              -1             0                                                                
+  isr_timer                UND                      0              0              1              0              -1             0                                                                
+  my_handler               my_handler               0              0              0              4              115            1                                                                
+
+Sections code
+Section: my_handler
+81 e0 10 01 81 e0 20 01 
+90 12 91 20 00 00 00 00 
+00 02 31 01 20 00 00 00 
+00 43 91 20 00 00 00 00 
+00 03 31 01 20 00 00 00 
+00 53 91 20 00 00 00 00 
+00 04 31 01 20 00 00 00 
+00 63 93 2e 0f ff 93 1e 
+0f ff 34 20 00 00 00 00 
+00 00 00 30 00 00 00 00 
+00 00 3a 20 00 00 00 00 
+00 00 00 30 00 00 00 00 
+00 00 3a 20 00 00 00 00 
+00 00 00 30 00 00 00 00 
+00 00 3a 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         
+  finish              SYMBOL              79                  my_handler          
+  finish              SYMBOL              95                  my_handler          
+  finish              SYMBOL              111                 my_handler          
+  handle_software     SYMBOL              54                  my_handler          
+  handle_terminal     SYMBOL              38                  my_handler          
+  handle_timer        SYMBOL              22                  my_handler          
+  isr_software        SYMBOL              103                 my_handler          
+  isr_terminal        SYMBOL              87                  my_handler          
+  isr_timer           SYMBOL              71                  my_handler          

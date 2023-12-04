@@ -1,0 +1,282 @@
+Loading input files started:
+
+Linker symbol table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        File                                              
+  handler                  my_handler               0              1              0              3              -1             1              ./tests/javni_test/handler.o                      
+  isr_software             isr                      0              1              0              2              -1             1              ./tests/javni_test/isr_software.o                 
+  isr_terminal             isr                      0              1              0              1              -1             1              ./tests/javni_test/isr_terminal.o                 
+  isr_timer                isr                      0              1              0              0              -1             1              ./tests/javni_test/isr_timer.o                    
+  mathAdd                  math                     0              1              0              0              -1             1              ./tests/javni_test/math.o                         
+  mathDiv                  math                     84             1              0              3              -1             1              ./tests/javni_test/math.o                         
+  mathMul                  math                     56             1              0              2              -1             1              ./tests/javni_test/math.o                         
+  mathSub                  math                     28             1              0              1              -1             1              ./tests/javni_test/math.o                         
+  my_start                 my_code                  0              1              0              5              -1             1              ./tests/javni_test/main.o                         
+  value1                   my_data                  0              1              0              6              -1             1              ./tests/javni_test/main.o                         
+  value2                   my_data                  4              1              0              7              -1             1              ./tests/javni_test/main.o                         
+  value3                   my_data                  8              1              0              8              -1             1              ./tests/javni_test/main.o                         
+  value4                   my_data                  12             1              0              9              -1             1              ./tests/javni_test/main.o                         
+  value5                   my_data                  16             1              0              10             -1             1              ./tests/javni_test/main.o                         
+  value6                   my_data                  20             1              0              11             -1             1              ./tests/javni_test/main.o                         
+  value7                   my_data                  24             1              0              12             -1             1              ./tests/javni_test/main.o                         
+
+SECTION ORDER
+my_handler 115 40000114
+math 112 f0000000
+my_code 276 40000000
+my_data 28 40000187
+isr 1 400001a3
+isr 1 400001a4
+isr 41 400001a5
+
+Output section ordering
+./tests/javni_test/main.o LOCATION:40000000
+./tests/javni_test/handler.o LOCATION:40000114
+./tests/javni_test/main.o LOCATION:40000187
+./tests/javni_test/isr_terminal.o LOCATION:400001a3
+./tests/javni_test/isr_timer.o LOCATION:400001a4
+./tests/javni_test/isr_software.o LOCATION:400001a5
+./tests/javni_test/math.o LOCATION:f0000000
+Section: isr, ./tests/javni_test/isr_software.o
+  isr                      isr                      400001a5       0              0              1              29             1                                                                
+
+Section: isr, ./tests/javni_test/isr_terminal.o
+  isr                      isr                      400001a3       0              0              0              1              1                                                                
+
+Section: isr, ./tests/javni_test/isr_timer.o
+  isr                      isr                      400001a4       0              0              0              1              1                                                                
+
+Section: math, ./tests/javni_test/math.o
+  math                     math                     f0000000       0              0              4              70             1                                                                
+
+Section: my_code, ./tests/javni_test/main.o
+  my_code                  my_code                  40000000       0              0              d              114            1                                                                
+
+Section: my_data, ./tests/javni_test/main.o
+  my_data                  my_data                  40000187       0              0              e              1c             1                                                                
+
+Section: my_handler, ./tests/javni_test/handler.o
+  my_handler               my_handler               40000114       0              0              4              73             1                                                                
+
+
+
+RELOCATION ENTRIES:
+./tests/javni_test/handler.o
+  finish              SYMBOL              79                  my_handler          
+  finish              SYMBOL              95                  my_handler          
+  finish              SYMBOL              111                 my_handler          
+  handle_software     SYMBOL              54                  my_handler          
+  handle_terminal     SYMBOL              38                  my_handler          
+  handle_timer        SYMBOL              22                  my_handler          
+  isr_software        SYMBOL              103                 my_handler          
+  isr_terminal        SYMBOL              87                  my_handler          
+  isr_timer           SYMBOL              71                  my_handler          
+./tests/javni_test/math.o
+./tests/javni_test/main.o
+  handler             SYMBOL_INDIRECT     12                  my_code             
+  mathAdd             SYMBOL              87                  my_code             
+  mathDiv             SYMBOL              167                 my_code             
+  mathDiv             SYMBOL              207                 my_code             
+  mathSub             SYMBOL              127                 my_code             
+  value1              SYMBOL_INDIRECT     223                 my_code             
+  value2              SYMBOL_INDIRECT     55                  my_code             
+  value2              SYMBOL_INDIRECT     231                 my_code             
+  value3              SYMBOL_INDIRECT     95                  my_code             
+  value3              SYMBOL_INDIRECT     239                 my_code             
+  value4              SYMBOL_INDIRECT     135                 my_code             
+  value4              SYMBOL_INDIRECT     247                 my_code             
+  value5              SYMBOL_INDIRECT     175                 my_code             
+  value5              SYMBOL_INDIRECT     255                 my_code             
+  value6              SYMBOL_INDIRECT     215                 my_code             
+  value6              SYMBOL_INDIRECT     263                 my_code             
+  value7              SYMBOL_INDIRECT     271                 my_code             
+./tests/javni_test/isr_terminal.o
+./tests/javni_test/isr_timer.o
+./tests/javni_test/isr_software.o
+  value1              SYMBOL_INDIRECT     20                  isr                 
+
+
+RELOCATION SYMBOLS
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  finish                   my_handler               58             0              0              5              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  handle_software          my_handler               99             0              0              8              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  handle_terminal          my_handler               83             0              0              7              -1             1                                                                
+my_handler 1073742100
+
+DEFINED SYMBOL 
+  handle_timer             my_handler               67             0              0              6              -1             1                                                                
+my_handler 1073742100
+
+LOCALLY UNDEFINED SYMBOL 
+  isr_software             isr                      0              1              0              2              -1             1              ./tests/javni_test/isr_software.o                 
+my_handler 1073742100
+
+LOCALLY UNDEFINED SYMBOL 
+  isr_terminal             isr                      0              1              0              1              -1             1              ./tests/javni_test/isr_terminal.o                 
+my_handler 1073742100
+
+LOCALLY UNDEFINED SYMBOL 
+  isr_timer                isr                      0              1              0              0              -1             1              ./tests/javni_test/isr_timer.o                    
+my_handler 1073742100
+
+LOCALLY UNDEFINED SYMBOL 
+  handler                  my_handler               0              1              0              3              -1             1              ./tests/javni_test/handler.o                      
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathAdd                  math                     0              1              0              0              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathDiv                  math                     84             1              0              3              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathDiv                  math                     84             1              0              3              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathDiv                  math                     84             1              0              3              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathDiv                  math                     84             1              0              3              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  mathSub                  math                     28             1              0              1              -1             1              ./tests/javni_test/math.o                         
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value1                   my_data                  0              1              0              6              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value2                   my_data                  4              1              0              7              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value2                   my_data                  4              1              0              7              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value2                   my_data                  4              1              0              7              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value2                   my_data                  4              1              0              7              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value3                   my_data                  8              1              0              8              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value3                   my_data                  8              1              0              8              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value3                   my_data                  8              1              0              8              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value3                   my_data                  8              1              0              8              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value4                   my_data                  12             1              0              9              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value4                   my_data                  12             1              0              9              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value4                   my_data                  12             1              0              9              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value4                   my_data                  12             1              0              9              -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value5                   my_data                  16             1              0              10             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value5                   my_data                  16             1              0              10             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value5                   my_data                  16             1              0              10             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value5                   my_data                  16             1              0              10             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value6                   my_data                  20             1              0              11             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value6                   my_data                  20             1              0              11             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value6                   my_data                  20             1              0              11             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value6                   my_data                  20             1              0              11             -1             1                                                                
+my_code 1073741824
+
+DEFINED SYMBOL 
+  value7                   my_data                  24             1              0              12             -1             1                                                                
+my_code 1073741824
+
+LOCALLY UNDEFINED SYMBOL 
+  value1                   my_data                  0              1              0              6              -1             1              ./tests/javni_test/main.o                         
+isr 1073742245
+
+
+
+Writing Output File:
+Writing Output File completed

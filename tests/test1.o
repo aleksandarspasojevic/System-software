@@ -1,0 +1,12 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  aleksandar               aleksandar               0              0              0              0              12             1                                                                
+  my_start                 aleksandar               0              0              0              1              -1             1                                                                
+
+Sections code
+Section: aleksandar
+91 50 00 00 00 00 00 17 
+50 11 50 00 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         

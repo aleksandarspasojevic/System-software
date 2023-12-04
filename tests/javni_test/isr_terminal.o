@@ -1,0 +1,11 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  isr                      isr                      0              0              0              0              1              1                                                                
+  isr_terminal             isr                      0              1              0              1              -1             1                                                                
+
+Sections code
+Section: isr
+3c 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         

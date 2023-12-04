@@ -1,0 +1,16 @@
+Tokenization starting:
+
+First Pass starting:
+
+SECTION 1
+(aleksandar  SYMBOL) 
+Second Pass starting:
+
+LD 3
+(23  OPERAND_DECIMAL) (,  COMMA) (%r5  OPERAND_REG) 
+ADD 3
+(%r5  OPERAND_REG) (,  COMMA) (%r1  OPERAND_REG) 
+Writing Output File:
+
+
+Writing Output File completed

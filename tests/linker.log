@@ -1,0 +1,24 @@
+Loading input files started:
+
+Linker symbol table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        File                                              
+
+SECTION ORDER
+aleksandar 12 1073741824
+
+Output section ordering
+test1.o LOCATION:1073741824
+Section: aleksandar, test1.o
+  aleksandar               aleksandar               1073741824     0              0              0              12             1                                                                
+
+
+
+RELOCATION ENTRIES:
+test1.o
+
+
+RELOCATION SYMBOLS
+
+
+Writing Output File:
+Writing Output File completed

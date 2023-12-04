@@ -1,0 +1,20 @@
+Tokenization starting:
+
+First Pass starting:
+
+EXTERN 1
+(value1  SYMBOL) 
+SECTION 1
+(isr  SYMBOL) 
+GLOBAL 1
+(isr_software  SYMBOL) 
+Second Pass starting:
+
+LD 3
+(0xABCD  OPERAND_HEX) (,  COMMA) (%r1  OPERAND_REG) 
+LD 3
+(value1  SYMBOL_INDIRECT) (,  COMMA) (%r2  OPERAND_REG) 
+Writing Output File:
+
+
+Writing Output File completed

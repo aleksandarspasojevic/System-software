@@ -1,0 +1,84 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Build and Run Assembler",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/assembler.exe",
+      "args": [
+        "./tests/test1.s",
+        "-o",
+        "./tests/test1.o"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build"
+    },
+    {
+      "name": "Build and Run Linker",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/linker.exe",
+      "args": [
+        "-hex",
+        "-place=my_code@0x40000000",
+        "-place=math@0xF0000000",
+        "-o",
+        "./tests/javni_test/program.hex",
+        "./tests/javni_test/handler.o",
+        "./tests/javni_test/math.o",
+        "./tests/javni_test/main.o",
+        "./tests/javni_test/isr_terminal.o",
+        "./tests/javni_test/isr_timer.o",
+        "./tests/javni_test/isr_software.o"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build"
+    },
+    {
+      "name": "Build and Run Emulator",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/emulator.exe",
+      "args": [
+        "./tests/javni_test/program.hex"
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "Build"
+    }
+  ]
+}

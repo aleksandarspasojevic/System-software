@@ -1,0 +1,81 @@
+Symbols Table
+SymbolName               SectionName              Value          IsGlobal       IsExtern       Number         Size           Defined        
+  handler                  UND                      0              0              1              0              -1             0                                                                
+  mathAdd                  UND                      0              0              1              1              -1             0                                                                
+  mathDiv                  UND                      0              0              1              4              -1             0                                                                
+  mathMul                  UND                      0              0              1              3              -1             0                                                                
+  mathSub                  UND                      0              0              1              2              -1             0                                                                
+  my_code                  my_code                  0              0              0              13             276            1                                                                
+  my_data                  my_data                  0              0              0              14             28             1                                                                
+  my_start                 my_code                  0              1              0              5              -1             1                                                                
+  value1                   my_data                  0              1              0              6              -1             1                                                                
+  value2                   my_data                  4              1              0              7              -1             1                                                                
+  value3                   my_data                  8              1              0              8              -1             1                                                                
+  value4                   my_data                  12             1              0              9              -1             1                                                                
+  value5                   my_data                  16             1              0              10             -1             1                                                                
+  value6                   my_data                  20             1              0              11             -1             1                                                                
+  value7                   my_data                  24             1              0              12             -1             1                                                                
+
+Sections code
+Section: my_code
+91 e0 00 00 ff ff fe fe 
+91 10 00 00 00 00 00 00 
+94 11 10 91 10 00 00 00 
+00 00 01 81 e0 10 01 91 
+10 00 00 00 00 00 01 81 
+e0 10 01 20 00 00 00 f0 
+00 00 00 80 00 10 00 00 
+00 00 04 91 10 00 00 00 
+00 00 02 81 e0 10 01 91 
+10 00 00 00 00 00 01 81 
+e0 10 01 20 00 00 00 00 
+00 00 00 80 00 10 00 00 
+00 00 08 91 10 00 00 00 
+00 00 07 81 e0 10 01 91 
+10 00 00 00 00 00 0b 81 
+e0 10 01 20 00 00 00 00 
+00 00 00 80 00 10 00 00 
+00 00 0c 91 10 00 00 00 
+00 00 05 81 e0 10 01 91 
+10 00 00 00 00 00 19 81 
+e0 10 01 20 00 00 00 00 
+00 00 00 80 00 10 00 00 
+00 00 10 91 10 00 00 00 
+00 00 04 81 e0 10 01 91 
+10 00 00 00 00 00 18 81 
+e0 10 01 20 00 00 00 00 
+00 00 00 80 00 10 00 00 
+00 00 14 92 10 00 00 00 
+00 00 00 92 20 00 00 00 
+00 00 04 92 30 00 00 00 
+00 00 08 92 40 00 00 00 
+00 00 0c 92 50 00 00 00 
+00 00 10 92 60 00 00 00 
+00 00 14 92 70 00 00 00 
+00 00 18 00 
+
+Section: my_data
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 
+
+Relocations Table
+SymbolName          RelocationType      Location            SectionName         
+  handler             SYMBOL_INDIRECT     12                  my_code             
+  mathAdd             SYMBOL              87                  my_code             
+  mathDiv             SYMBOL              167                 my_code             
+  mathDiv             SYMBOL              207                 my_code             
+  mathSub             SYMBOL              127                 my_code             
+  value1              SYMBOL_INDIRECT     223                 my_code             
+  value2              SYMBOL_INDIRECT     55                  my_code             
+  value2              SYMBOL_INDIRECT     231                 my_code             
+  value3              SYMBOL_INDIRECT     95                  my_code             
+  value3              SYMBOL_INDIRECT     239                 my_code             
+  value4              SYMBOL_INDIRECT     135                 my_code             
+  value4              SYMBOL_INDIRECT     247                 my_code             
+  value5              SYMBOL_INDIRECT     175                 my_code             
+  value5              SYMBOL_INDIRECT     255                 my_code             
+  value6              SYMBOL_INDIRECT     215                 my_code             
+  value6              SYMBOL_INDIRECT     263                 my_code             
+  value7              SYMBOL_INDIRECT     271                 my_code             

@@ -1,0 +1,1209 @@
+LD 0x91
+LD 91  handle: 0   cause:0   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefe   r15=0x40000008   
+
+
+
+LD 0x91
+LD 91  handle: 0   cause:0   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefe   r15=0x40000010   
+
+
+
+CSRWR 0x94
+CSRWR 94  handle: 40000114   cause:0   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefe   r15=0x40000012   
+
+
+
+INT 0x10
+INT 10  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x40000114   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0x40000118   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000011c   
+
+
+
+CSRRD 0x90
+CSRRD 90  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000011e   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000002    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000126   
+
+
+
+BEQ 0x31
+BEQ 31  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000002    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000012e   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000003    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000136   
+
+
+
+BEQ 0x31
+BEQ 31  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000003    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000013e   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000146   
+
+
+
+BEQ 0x31
+BEQ 31  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000177   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0x400001a5   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x400001a9   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x400001ad   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000abcd    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x400001b5   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000abcd    r2=0x40000187    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x400001bd   
+
+
+
+ST 0x82
+ST 82  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000abcd    r2=0x40000187    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x400001c5   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000abcd    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x400001c9   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0x400001cd   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000017f   
+
+
+
+JMP 0x30
+JMP 30  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000014e   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0x40000152   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x40000156   
+
+
+
+IRET 0x34
+IRET 34  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x40000114    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefe   r15=0x40000013   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefe   r15=0x4000001b   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefa   r15=0x4000001f   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffefa   r15=0x40000027   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x4000002b   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0xf0000000   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0xf0000004   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0xf000000c   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000001    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0xf0000014   
+
+
+
+ADD 0x50
+ADD 50  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000001    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0xf0000017   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0xf000001b   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x40000033   
+
+
+
+ST 0x80
+ST 80  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x4000003b   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef6   r15=0x40000043   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000002    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0x40000047   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffef2   r15=0x4000004f   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000053   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0xf0000000   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0xf0000004   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0xf000000c   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000001    r2=0x00000002    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0xf0000014   
+
+
+
+ADD 0x50
+ADD 50  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000003    r2=0x00000002    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0xf0000017   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000003    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0xf000001b   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000003    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000005b   
+
+
+
+ST 0x80
+ST 80  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000003    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x40000063   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000007    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeee   r15=0x4000006b   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000007    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0x4000006f   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeea   r15=0x40000077   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x4000007b   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0xf000001c   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0xf0000020   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0xf0000028   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x0000000b    r2=0x00000007    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0xf0000030   
+
+
+
+SUB 0x51
+SUB 51  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000007    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0xf0000033   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0xf0000037   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x40000083   
+
+
+
+ST 0x80
+ST 80  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x4000008b   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee6   r15=0x40000093   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x40000097   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffee2   r15=0x4000009f   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0x400000a3   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeda   r15=0xf0000054   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0xf0000058   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0xf0000060   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000019    r2=0x00000005    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0xf0000068   
+
+
+
+DIV 0x53
+DIV 53  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000005    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0xf000006b   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeda   r15=0xf000006f   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0x400000ab   
+
+
+
+ST 0x80
+ST 80  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000005    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0x400000b3   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffede   r15=0x400000bb   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000004    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeda   r15=0x400000bf   
+
+
+
+LD 0x91
+LD 91  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffeda   r15=0x400000c7   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000cb   
+
+
+
+CALL 0x20
+CALL 20  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed2   r15=0xf0000054   
+
+
+
+PUSH 0x81
+PUSH 81  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffece   r15=0xf0000058   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffece   r15=0xf0000060   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000018    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffece   r15=0xf0000068   
+
+
+
+DIV 0x53
+DIV 53  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000006    r2=0x00000004    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffece   r15=0xf000006b   
+
+
+
+POP 0x93
+POP 93  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000006    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed2   r15=0xf000006f   
+
+
+
+RET 0x3c
+RET 3c  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000006    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000d3   
+
+
+
+ST 0x80
+ST 80  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000006    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000db   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000000    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000e3   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000000    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000eb   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000003    
+r4=0x00000000    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000f3   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000003    
+r4=0x00000004    r5=0x00000000    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x400000fb   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000003    
+r4=0x00000004    r5=0x00000005    r6=0x00000000    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x40000103   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000003    
+r4=0x00000004    r5=0x00000005    r6=0x00000006    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x4000010b   
+
+
+
+LD 0x92
+LD 92  handle: 40000114   cause:4   status: 0
+------------------------------------------------
+Emulated processor executed halt instruction    
+Emulated processor state: 
+
+r0=0x00000000    r1=0x00000000    r2=0x00000002    r3=0x00000003    
+r4=0x00000004    r5=0x00000005    r6=0x00000006    r7=0x00000000    
+r8=0x00000000    r9=0x00000000    r10=0x00000000   r11=0x00000000   
+r12=0x00000000   r13=0x00000000   r14=0xfffffed6   r15=0x40000113   
+
+
+
